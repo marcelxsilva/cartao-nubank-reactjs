@@ -30,19 +30,22 @@ type Props = {
   reverse?: boolean,
   name: string;
   cardNumber: string;
-  validThruOne: string;
-  validThruTwo: string;
+  validMonth: string;
+  validYear: string;
   securityCode: string;
   onClick?(): void;
+  memberSince: string;
 }
 const Card: React.FC<Props> = ({
   reverse,
   name = 'Marcelo Silva',
   cardNumber = '0000 0000 0000 0000',
-  validThruOne = '00',
-  validThruTwo = '00',
+  validMonth = '00',
+  validYear = '00',
   securityCode = '123',
+  memberSince = "00/00",
   onClick,
+
 }) => {
   const [reversed, setReversed] = React.useState(false);
   const handleCard = () => setReversed(!reversed)
@@ -79,7 +82,7 @@ const Card: React.FC<Props> = ({
                 MEMBER
                 SINCE
               </Sup>
-              <NumberText>01/18</NumberText>
+              <NumberText>{memberSince}</NumberText>
             </ItemInformation>
 
             <ItemInformation>
@@ -87,7 +90,7 @@ const Card: React.FC<Props> = ({
                 VALID
                 THRU
               </Sup>
-              <NumberText>{`${validThruOne}/${validThruTwo}`}</NumberText>
+              <NumberText>{`${validMonth}/${validYear}`}</NumberText>
             </ItemInformation>
 
             <ItemInformation>

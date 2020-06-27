@@ -1,5 +1,5 @@
 {
-  "name": "cartao-nubank",
+  "name": "cartao-nubank-reactjs",
   "version": "0.0.1",
   "description": "Simples Cartão Nubank",
   "main": "index.ts",
@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:marcelxsilva/cartao-nubank.git"
+    "url": "git@github.com:marcelxsilva/cartao-nubank-reactjs.git"
   },
   "bugs": {
-    "url": "https://github.com/marcelxsilva/cartao-nubank/issues"
+    "url": "https://github.com/marcelxsilva/cartao-nubank-reactjs/issues"
   },
-  "homepage": "https://github.com/marcelxsilva/cartao-nubank",
+  "homepage": "https://github.com/marcelxsilva/cartao-nubank-reactjs",
   "preferGlobal": true,
   "dependencies": {
     "styled-components": "^5.1.0",
