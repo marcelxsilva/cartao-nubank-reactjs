@@ -1,0 +1,32 @@
+{
+  "name": "cartao-nubank",
+  "version": "0.0.1",
+  "description": "Simples Cartão Nubank",
+  "main": "index.ts",
+  "keywords": [
+    "card",
+    "cartao",
+    "nubank",
+    "ui",
+    "reactjs",
+    "javascript",
+    "typescript",
+    "js",
+    "ts"
+  ],
+  "author": "Marcelo Silva <maarcelomonteiro@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marcelxsilva/cartao-nubank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelxsilva/cartao-nubank/issues"
+  },
+  "homepage": "https://github.com/marcelxsilva/cartao-nubank",
+  "preferGlobal": true,
+  "dependencies": {
+    "styled-components": "^5.1.0",
+    "typescript": "^3.9.5"
+  }
+}
